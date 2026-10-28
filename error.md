@@ -9,6 +9,10 @@
 | 2026-10-24 | Tuve dificultades para recorrer un diccionario y acceder a sus valores. | Utilizar `for clave in diccionario:` para recorrer las claves y `diccionario[clave]` para acceder a cada valor. | Recorrer directamente un diccionario permite obtener sus claves, no sus valores. |
 | 2026-10-24 | Tuve dificultades para seguir una función que combinaba un diccionario, condiciones, un acumulador y un contador. | Seguir las variables paso a paso y comprobar las condiciones antes de actualizar el acumulador o el contador. | Cada variable cambia únicamente cuando se ejecuta la instrucción de asignación correspondiente. |
 | 2026-10-26 | Inicialicé el acumulador dentro del bucle `for` e intenté sumar los números sin conservar correctamente el total acumulado. | Inicializar el acumulador antes del bucle y actualizarlo en cada iteración con `total = total + numero`. | Si el acumulador se reinicia dentro del bucle, pierde el valor anterior. Para sumar una secuencia, debe conservar el total entre iteraciones. |
+| Fecha | Mi error | Corrección | Explicación |
+|---|---|---|---|
+| 2026-10-27 | Al predecir la salida de un programa, dije que `print(income)` imprimiría `35` en lugar de `100`. | Seguir el valor de cada variable por separado y comprobar cuál se utiliza en cada `print()`. | `income` conserva el valor `100`; calcular `savings` no modifica esa variable. |
+
 
 ## Reglas que debo recordar
 
